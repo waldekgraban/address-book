@@ -1,0 +1,21 @@
+{
+    "name": "waldekgraban/address-book",
+    "description": "Simple address book application in PHP",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Waldemar Graban",
+            "email": "waldekgraban@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Waldekgraban\\AddressBook\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Waldekgraban\\AddressBook\\": "src/"
+        }
+    }
+}
